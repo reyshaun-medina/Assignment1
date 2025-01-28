@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Assignment1 {
     public static void main(String[] args) {
         SecureRandom randomNumberObj = new SecureRandom();
-        int number = 1 + randomNumberObj.nextInt(6);
+        int number = 1 + randomNumberObj.nextInt(10);
 
         Scanner input = new Scanner(System.in);
         int guess;
